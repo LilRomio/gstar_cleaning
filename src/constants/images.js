@@ -1,4 +1,5 @@
 import logo from '../assets/logo.png';
+import logo2 from '../assets/logo2.jpg';
 import about1 from '../assets/about1.jpg';
 import about2 from '../assets/about2.jpg';
 import about3 from '../assets/about3.jpg';
@@ -15,7 +16,7 @@ import about13 from '../assets/about13.jpg';
 import about14 from '../assets/about14.jpg';
 import about15 from '../assets/about15.jpg';
 import about16 from '../assets/about16.jpg';
-
+import circle from '../assets/circle.svg';
 export default {
   about1,
   about2,
@@ -35,4 +36,6 @@ export default {
   about16,
 
   logo,
+  logo2,
+  circle,
 };

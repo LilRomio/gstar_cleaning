@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import './About.scss';
 import { images } from '../../constants';
 
+import { AppWrap } from '../../wrapper';
+
 const abouts = [
   {
     title: 'Curatenie generala sau de mentinere',
@@ -61,4 +63,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, 'despre');

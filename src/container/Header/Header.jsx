@@ -29,32 +29,31 @@ const Header = () => {
             <div style={{ marginLeft: 20 }}>
               <p className="p-text">Buna, noi suntem</p>
               <h1 className="head-text">GSTAR Cleaning</h1>
-            </div>
-          </div>
-          <div className="tag-cmp app__flex">
-            <div>
               <p className="p-text">
-                Noi suntem o echipa tanara si dinamica dornica de performanta.
+                o echipa tanara si dinamica dornica de performanta.
               </p>
             </div>
           </div>
           <div className="tag-cmp app__flex">
             <div>
               <p className="p-text">
-                In permanenta cautam sa satisfacem nevoile clientilor nostri,
-                oferindu-le servicii de curatenie complexe si de calitate,
-                executate cu solutii profesionale, bazandu-ne pe o tehnica de
-                varf, menirea noastra fiind satisfacerea celor mai inalte
-                exigente.
+                Curat repede si bine! Asta ne defineste, asta ne motiveaza!
               </p>
             </div>
           </div>
           <div className="tag-cmp app__flex">
             <div>
               <p className="p-text">
-                Ne caracterizeaza profesionalismul, flexibilitatea,
-                promptitudinea si increderea de care am dat si dam dovada in
-                continuare.
+                Curat repede, pentru ca stim cat de important este timpul
+                dumneavoastra !
+              </p>
+            </div>
+          </div>
+          <div className="tag-cmp app__flex">
+            <div>
+              <p className="p-text">
+                Curat bine, asa cum ne recomanda toti clientii nostri din
+                Navodari si Mamaia!
               </p>
             </div>
           </div>

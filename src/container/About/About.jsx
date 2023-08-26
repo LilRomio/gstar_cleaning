@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import './About.scss';
 import { images } from '../../constants';
 
-import { AppWrap } from '../../wrapper';
+import { AppWrap, MotionWrap } from '../../wrapper';
 
 const abouts = [
   {
@@ -53,6 +53,9 @@ const About = () => {
         <br /> in <span>Constanta</span> , <span> Mamaia</span> si{' '}
         <span>Navodari</span>
       </h2>
+      <h4 className="bold-text">
+        Oferim o gama variata de servicii de curatenie
+      </h4>
       <div className="app__profiles">
         {abouts.map((about, index) => (
           <motion.div
@@ -76,4 +79,8 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, 'servicii');
+export default AppWrap(
+  MotionWrap(About, 'app__about'),
+  'servicii',
+  'app__whitebg'
+);

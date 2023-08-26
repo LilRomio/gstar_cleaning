@@ -25,10 +25,22 @@ const abouts = [
     imgUrl: images.about5,
   },
   {
-    title: 'Servicii de curatenie scari de bloc, birouri sau restaurante',
+    title: 'Servicii de curatenie birouri sau restaurante',
     description:
-      'Pachetul de servicii de curatenie in scari de bloc, birouri si restaurante de firme in Constanta, este unul bine organizat si personalizat in conformitate cu necesitatile clientilor. Obiectivul nostru este aceea de a ne multumi clientii prin calitatea serviciilor oferite.',
+      'Pachetul de servicii de curatenie in birouri si restaurante de firme in Constanta, este unul bine organizat si personalizat in conformitate cu necesitatile clientilor. Obiectivul nostru este aceea de a ne multumi clientii prin calitatea serviciilor oferite.',
     imgUrl: images.about6,
+  },
+  {
+    title: 'Curatenie Curte',
+    description:
+      'Echipa noastra atenta si responsabila se va ocupa de tot ce este necesar pentru ca locuinta dumneavoastra sa fie curata si ingrijita.',
+    imgUrl: images.about9,
+  },
+  {
+    title: 'Cosmetica auto',
+    description:
+      'Echipa noastra atenta si responsabila se va ocupa de tot ce este necesar pentru ca locuinta dumneavoastra sa fie curata si ingrijita.',
+    imgUrl: images.about10,
   },
 ];
 
@@ -36,9 +48,10 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        Expertul tau in servicii <span>Profesionale</span> de{' '}
+        <span>Expertul</span> tau in servicii <span>Profesionale</span> de{' '}
         <span>Curatenie</span>
-        <br /> in <span>Navodari</span> si <span> Mamaia</span>
+        <br /> in <span>Constanta</span> , <span> Mamaia</span> si{' '}
+        <span>Navodari</span>
       </h2>
       <div className="app__profiles">
         {abouts.map((about, index) => (
@@ -63,4 +76,4 @@ const About = () => {
   );
 };
 
-export default AppWrap(About, 'despre');
+export default AppWrap(About, 'servicii');

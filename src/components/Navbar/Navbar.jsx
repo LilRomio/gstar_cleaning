@@ -14,11 +14,20 @@ const Navbar = () => {
         <img src={images.logo2} alt="logo" />
         <div className="app__flex" style={{ flexDirection: 'column' }}>
           <div className="app__navbar-contact p-text">
-            <BiMobileVibration className="app__contact-logo" /> 0733273674 /
-            0734540243
+            <BiMobileVibration className="app__contact-logo" />
+            <a className="p-text" href="tel:0733273674 ">
+              0733273674{' '}
+            </a>
+            /
+            <a className="p-text" href="tel:0734540243 ">
+              0734540243{' '}
+            </a>
           </div>
           <div className=" app__navbar-contact  p-text">
-            <BiLogoGmail className="app__contact-logo" /> giurgealena@gmail.com
+            <BiLogoGmail className="app__contact-logo" />
+            <a className="p-text" href="mailto:giurgealena@gmail.com">
+              giurgealena@gmail.com
+            </a>
           </div>
         </div>
       </div>

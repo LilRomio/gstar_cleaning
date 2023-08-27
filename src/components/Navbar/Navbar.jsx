@@ -12,7 +12,10 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.logo2} alt="logo" />
-        <div className="app__flex" style={{ flexDirection: 'column' }}>
+        <div
+          className="app__flex"
+          style={{ flexDirection: 'column', alignItems: 'flex-start' }}
+        >
           <div className="app__navbar-contact p-text">
             <BiMobileVibration className="app__contact-logo" />
             <a className="p-text" href="tel:0733273674 ">

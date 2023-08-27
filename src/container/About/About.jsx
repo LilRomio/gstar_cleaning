@@ -13,7 +13,7 @@ const abouts = [
     imgUrl: images.about11,
   },
   {
-    title: 'Servicii de curatare canapele/fotolii/saltele',
+    title: 'Servicii de curatare canapele / fotolii / saltele',
     description:
       'Pentru o curatenie desavarsita, aveti nevoie si de canapele si saltele curate si igenizate. Aici GStar va ofera servicii de curatare si intretinere periodica pentru canapele, fotolii si saltele, cu solutii profesionale prin tehnici diferite, alese de client. Bazandu-ne pe o experienta vasta, lasam in urma doar clienti multumiti.',
     imgUrl: images.about18,

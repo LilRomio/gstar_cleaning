@@ -79,7 +79,8 @@ const Prices = () => {
           <div className="tag-cmp ">
             <div className="app__flex" style={{ flexDirection: 'column' }}>
               <h2 className="head-text">
-                <span> Tarife Curatare</span> Canapele/Fotolii/Saltele
+                <span> Tarife Curatare</span> <br /> Canapele / Fotolii /
+                Saltele
               </h2>
               <p className="p-text">
                 Curatare cu Injectie-Extractie Fotoliu - 85 RON <br />

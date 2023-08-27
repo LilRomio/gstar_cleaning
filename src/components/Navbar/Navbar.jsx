@@ -3,6 +3,7 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 import './Navbar.scss';
 import { images } from '../../constants';
+import { BiLogoGmail, BiMobileVibration } from 'react-icons/bi';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,6 +12,15 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.logo2} alt="logo" />
+        <div className="app__flex" style={{ flexDirection: 'column' }}>
+          <div className="app__navbar-contact p-text">
+            <BiMobileVibration className="app__contact-logo" /> 0733273674 /
+            0734540243
+          </div>
+          <div className=" app__navbar-contact  p-text">
+            <BiLogoGmail className="app__contact-logo" /> giurgealena@gmail.com
+          </div>
+        </div>
       </div>
       <ul className="app__navbar-links">
         {['acasa', 'servicii', 'preturi', 'contact'].map((item) => (

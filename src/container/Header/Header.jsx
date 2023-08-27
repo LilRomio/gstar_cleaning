@@ -27,7 +27,7 @@ const Header = () => {
           <div className="badge-cmp app__flex">
             <span>👋</span>
             <div style={{ marginLeft: 20 }}>
-              <p className="p-text">Buna, noi suntem</p>
+              <h4 className="p-text">Buna, noi suntem</h4>
               <h1 className="head-text">GSTAR Cleaning</h1>
               <p className="p-text">
                 o echipa tanara si dinamica dornica de performanta.
@@ -37,23 +37,20 @@ const Header = () => {
           <div className="tag-cmp app__flex">
             <div>
               <p className="p-text">
-                Curat repede si bine! Asta ne defineste, asta ne motiveaza!
+                Asiguram servicii profesionale de curatenie in judetul
+                Constanta. <br /> Program de lucru: Marti - Sambata
               </p>
             </div>
           </div>
           <div className="tag-cmp app__flex">
             <div>
               <p className="p-text">
-                Curat repede, pentru ca stim cat de important este timpul
-                dumneavoastra !
-              </p>
-            </div>
-          </div>
-          <div className="tag-cmp app__flex">
-            <div>
-              <p className="p-text">
-                Curat bine, asa cum ne recomanda toti clientii nostri din
-                Navodari si Mamaia!
+                Firma de curatenie Gstar inseamnă servicii profesionale de
+                calitate. Ne preocupam permanent de imbunatatirea performantelor
+                si le oferim clientilor servicii peste nivelul asteptarilor.
+                Firma noastra de curatenie dispune de echipamente profesionale
+                si suntem reprezentati pe teren de o echipa cu experienta,
+                atenta la detalii si la necesitatilor clientilor.
               </p>
             </div>
           </div>

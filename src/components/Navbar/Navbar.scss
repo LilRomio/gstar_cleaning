@@ -15,14 +15,28 @@
   z-index: 2;
 }
 
+.app__navbar-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+
+  .app__contact-logo {
+    margin-right: 3px;
+    font-size: 18px;
+  }
+}
+
 .app__navbar-logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  flex-direction: column;
 
   img {
-    width: 140px;
-    height: 60px;
+    width: 180px;
+    height: 70px;
+    padding-bottom: 5px;
 
     @media screen and (min-width: 2000px) {
       width: 180px;

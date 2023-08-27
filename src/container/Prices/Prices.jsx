@@ -24,7 +24,7 @@ const Prices = () => {
           <motion.div
             variant={scaleVariants}
             whileInView={scaleVariants.whileInView}
-            className="app__prices-circles"
+            className="app__prices-circles "
           >
             {[images.about8, images.about15, images.about12].map(
               (circle, index) => (
@@ -71,6 +71,25 @@ const Prices = () => {
                 solutii personalizate si eficiente de curatenie, astfel incat sa
                 puteti avea un mediu curat, sigur si proaspat, fara sa va faceti
                 griji pentru costuri sau detalii technice
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="app__header-badge app__flex">
+          <div className="tag-cmp ">
+            <div className="app__flex" style={{ flexDirection: 'column' }}>
+              <h2 className="head-text">
+                <span> Tarife Curatare</span> Canapele/Fotolii/Saltele
+              </h2>
+              <p className="p-text">
+                Curatare cu Injectie-Extractie Fotoliu - 85 RON <br />
+                Canapea cu 2 Locuri - 170 RON <br />
+                Canapea cu 3 Locuri - 240 RON <br />
+                Canapea Extensibila - 290 RON <br />
+                Coltar cu 3 Locuri - 340 RON <br />
+                Coltar cu 4 Locuri - 390 RON <br />
+                Coltar cu 5 Locuri - 440 RON <br />
+                Saltea - 190 RON
               </p>
             </div>
           </div>

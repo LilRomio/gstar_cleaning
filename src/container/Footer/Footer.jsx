@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.scss';
+import { images } from '../../constants';
+import { AppWrap, MotionWrap } from '../../wrapper';
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <>
+      <h2 className="head-text"></h2>
+    </>
+  );
 };
 
-export default Footer;
+export default AppWrap(
+  MotionWrap(Footer, 'app__footer'),
+  'contact',
+  'app__whitebg'
+);

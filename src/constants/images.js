@@ -19,6 +19,9 @@ import about16 from '../assets/about16.jpg';
 import about17 from '../assets/about17.jpg';
 import about18 from '../assets/about18.jpg';
 import circle from '../assets/circle.svg';
+import email from '../assets/email.png';
+import mobile from '../assets/mobile.png';
+
 export default {
   about1,
   about2,
@@ -42,4 +45,6 @@ export default {
   logo,
   logo2,
   circle,
+  email,
+  mobile,
 };

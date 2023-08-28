@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import './Navbar.scss';
 import { images } from '../../constants';
 import { BiLogoGmail, BiMobileVibration } from 'react-icons/bi';
-
+import { FaFacebookF, FaWhatsappSquare } from 'react-icons/fa';
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -17,12 +17,14 @@ const Navbar = () => {
       </div>
 
       <ul className="app__navbar-links">
-        {['acasa', 'servicii', 'preturi', 'contact'].map((item) => (
-          <li className="app__flex p-text" key={`link-${item}`}>
-            <div />
-            <a href={`#${item}`}>{item}</a>
-          </li>
-        ))}
+        {['acasa', 'servicii', 'preturi', 'testimoniale', 'contact'].map(
+          (item) => (
+            <li className="app__flex p-text" key={`link-${item}`}>
+              <div />
+              <a href={`#${item}`}>{item}</a>
+            </li>
+          )
+        )}
       </ul>
       <div
         className="app__flex"
@@ -55,13 +57,15 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {['acasa', 'servicii', 'preturi', 'contact'].map((item) => (
-                <li key={item}>
-                  <a href={`#${item}`} onClick={() => setToggle(false)}>
-                    {item}
-                  </a>
-                </li>
-              ))}
+              {['acasa', 'servicii', 'preturi', 'testimoniale', 'contact'].map(
+                (item) => (
+                  <li key={item}>
+                    <a href={`#${item}`} onClick={() => setToggle(false)}>
+                      {item}
+                    </a>
+                  </li>
+                )
+              )}
             </ul>
           </motion.div>
         )}

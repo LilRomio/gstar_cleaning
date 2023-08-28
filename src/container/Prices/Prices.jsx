@@ -26,7 +26,7 @@ const Prices = () => {
             whileInView={scaleVariants.whileInView}
             className="app__prices-circles "
           >
-            {[images.about8, images.about15, images.about12].map(
+            {[images.about1, images.about15, images.about12].map(
               (circle, index) => (
                 <div className="circle-cmp app__flex" key={`circle-index`}>
                   <img src={circle} alt="circle" />
@@ -47,9 +47,10 @@ const Prices = () => {
                 factori, cum ar fi suprafata de curatat, complexitatea
                 interventiei si frecventa acestora. In acest fel, putem oferi o
                 estimare precisa a costurilor si garantam ca serviciile noastre
-                sunt competitive si accesibile.Pentru abonamentele pe termen
+                sunt competitive si accesibile. Pentru abonamentele pe termen
                 lung, oferim preturi preferentiale, care pot fi discutate si
                 personalizate in functie de nevoile unice ale fiecarei locatii.
+                <br />
                 De asemenea, oferim evaluari gratuite, astfel incat sa putem
                 personaliza un plan de servicii de curatenie care sa se
                 potriveasca nevoilor si bugetului dumneavoastra.
@@ -70,7 +71,7 @@ const Prices = () => {
                 pentru a solicita oferta de curatenie. Suntem aici sa va oferim
                 solutii personalizate si eficiente de curatenie, astfel incat sa
                 puteti avea un mediu curat, sigur si proaspat, fara sa va faceti
-                griji pentru costuri sau detalii technice
+                griji pentru costuri sau detalii technice.
               </p>
             </div>
           </div>
@@ -82,8 +83,9 @@ const Prices = () => {
                 <span> Tarife Curatare</span> <br /> Canapele / Fotolii /
                 Saltele
               </h2>
+              <h2 className="bold-text">Curatare cu Injectie - Extractie </h2>
               <p className="p-text">
-                Curatare cu Injectie-Extractie Fotoliu - 85 RON <br />
+                Fotoliu - 85 RON <br />
                 Canapea cu 2 Locuri - 170 RON <br />
                 Canapea cu 3 Locuri - 240 RON <br />
                 Canapea Extensibila - 290 RON <br />

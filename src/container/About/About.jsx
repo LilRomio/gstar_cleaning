@@ -34,7 +34,7 @@ const abouts = [
     title: 'Curatenie Curte',
     description:
       'Echipa noastra atenta si responsabila se va ocupa de tot ce este necesar pentru ca locuinta dumneavoastra sa fie curata si ingrijita.',
-    imgUrl: images.about9,
+    imgUrl: images.about19,
   },
   {
     title: 'Cosmetica auto',

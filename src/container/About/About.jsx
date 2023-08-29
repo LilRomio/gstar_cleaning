@@ -9,38 +9,40 @@ const abouts = [
   {
     title: 'Curatenie generala sau de mentinere',
     description:
-      'Echipa noastra atenta si responsabila se va ocupa de tot ce este necesar pentru ca locuinta dumneavoastra sa fie curata si ingrijita.',
+      'Curatenie generala sau de mentinere. Serviciul de curatenie generala sau de intretinere oferit de Gstar Cleaning se concentreaza pe realizarea curateniei generale sau mentinerea curateniei in spatiile comerciale, institutii sau locuinte. Oferim servicii de curatenie rezidentiala, incluzand curatenie in apartamente si vile. Echipa noastra ofera servicii de calitate superioara pentru a le asigura clientilor un mediu curat si confortabil acasa. Acest serviciu poate fi personalizat in functie de necesitatile fiecarui client si poate fi programat in functie de programul sau de disponibilitatea acestuia.',
     imgUrl: images.about11,
   },
-  {
-    title: 'Servicii de curatare canapele / fotolii / saltele',
-    description:
-      'Pentru o curatenie desavarsita, aveti nevoie si de canapele si saltele curate si igenizate. Aici GStar va ofera servicii de curatare si intretinere periodica pentru canapele, fotolii si saltele, cu solutii profesionale prin tehnici diferite, alese de client. Bazandu-ne pe o experienta vasta, lasam in urma doar clienti multumiti.',
-    imgUrl: images.about18,
-  },
+
   {
     title: 'Curatenie post-constructor',
     description:
-      'Pentru a beneficia de un spatiu curat în urma constructiei sau reamenajarii, firma GStar este mereu pregatita sa va ofere servicii de curatenie de calitate conform solicitarilor dumneavoastra.',
+      'Curatenie post constructor. Echipa noastra de curatenie are experienta necesare pentru a face fata oricarei provocari pe care o aveti, oferind servicii complete de curatenie post constructor. Folosim doar echipamente si produse de inalta calitate, adaptate special pentru fiecare lucrare, pentru a va asigura satisfactie cu rezultatul final.',
     imgUrl: images.about5,
   },
   {
     title: 'Servicii de curatenie birouri sau restaurante',
     description:
-      'Pachetul de servicii de curatenie in birouri si restaurante de firme in Constanta, este unul bine organizat si personalizat in conformitate cu necesitatile clientilor. Obiectivul nostru este aceea de a ne multumi clientii prin calitatea serviciilor oferite.',
+      'Servicii de curatenie birouri si restaurante. Oferim servicii de curatenie pentru birouri, adaptate nevoilor si cerintelor fiecarui companii. Acordam o importanta deosebita confidentialitatii si sigurantei, fiind constienti de importanta acestor aspecte pentru afacerile dumnevaoastra. ',
     imgUrl: images.about6,
+  },
+  {
+    title: 'Servicii de curatare canapele / fotolii / saltele',
+    description:
+      'Servicii de curatare canapele, saltele si fotolii. Garantam curatarea si igienizarea tapiteriilor in profunzime, nu doar la suprafata, cu echipamente profesioanale marca Karcher folosind tehnologia de injectie-extractie, prin aspirare puternica. De asemenea, folosim si detergenti cu uscare rapida.',
+    imgUrl: images.about18,
+  },
+
+  {
+    title: 'Cosmetica auto',
+    description:
+      'Cosmetica auto. Serviciul de detailing auto oferit presupune curatarea, degresarea, dezinfectarea tapiteriei cu aparatura profesioanala cu  injectie-extractie, hidratarea tapiteriei de piele, curatarea mochetelor si a covoraselor, curatare plafon, stalpi, curatare portbagaj. Produsele oferite vor prelungi durata de viata a componentelor de plastic, cauciuc, piele.',
+    imgUrl: images.about17,
   },
   {
     title: 'Curatenie Curte',
     description:
-      'Echipa noastra atenta si responsabila se va ocupa de tot ce este necesar pentru ca locuinta dumneavoastra sa fie curata si ingrijita.',
+      'Curatenie curte. Facem noi curatenie in curte, pentru ca tu sa te simti relaxat.',
     imgUrl: images.about19,
-  },
-  {
-    title: 'Cosmetica auto',
-    description:
-      'Echipa noastra atenta si responsabila se va ocupa de tot ce este necesar pentru ca locuinta dumneavoastra sa fie curata si ingrijita.',
-    imgUrl: images.about17,
   },
 ];
 

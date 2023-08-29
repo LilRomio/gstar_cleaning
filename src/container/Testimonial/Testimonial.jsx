@@ -1,35 +1,74 @@
-import React, { useState, useEffect } from 'react';
+import React, { Component } from 'react';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Carousel } from 'react-responsive-carousel';
 import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
-import { motion } from 'framer-motion';
 
+import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 import './Testimonial.scss';
 
+const test = [
+  {
+    imgUrl: images.about12,
+    description: 'Servicii excelente',
+    name: 'Romeo',
+    title: 'Web Dev',
+  },
+  {
+    imgUrl: images.about1,
+    description: 'Servicii bune',
+    name: 'Elena',
+    title: 'Propietar',
+  },
+];
+
 const Testimonial = () => {
   return (
-    <>
+    <Carousel
+      showArrows={true}
+      infiniteLoop={true}
+      showThumbs={false}
+      showStatus={false}
+      autoPlay={true}
+      interval={6100}
+      className="app__testimonial"
+    >
       <div className="app__testimonial-item app__flex">
-        <img src={Image.about12} alt="testimonial" />
         <div className="app__testimonial-content">
-          <p className="p-text"></p>
           <div>
-            <h4 className="bold-text"></h4>
-            <h5 className="p-text"></h5>
+            <img src={images.about1} alt="testimonial" />
+            <p className="p-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+              officiis quam tempora, incidunt repellat assumenda atque alias,
+              corporis veniam culpa maxime corrupti nostrum modi quae aspernatur
+              rerum odio placeat? Architecto.
+            </p>
+            <div>
+              <h4 className="bold-text">Elena</h4>
+              <h5 className="p-text">Propietar</h5>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className="app__testimonial-btns app__flex">
-        <div className="app__flex" onClick={() => {}}>
-          <HiChevronLeft />
-        </div>
-
-        <div className="app__flex" onClick={() => {}}>
-          <HiChevronRight />
+      <div className="app__testimonial-item app__flex">
+        <div className="app__testimonial-content">
+          <div>
+            <img src={images.about1} alt="testimonial" />
+            <p className="p-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus quis quibusdam fugit adipisci tempora facilis molestias
+              laudantium natus amet deserunt sed, sequi libero optio error
+              voluptate? Dolorum voluptatem tempore aliquid?
+            </p>
+            <div>
+              <h4 className="bold-text">Romeo</h4>
+              <h5 className="p-text">Web Dev</h5>
+            </div>
+          </div>
         </div>
       </div>
-    </>
+    </Carousel>
   );
 };
 

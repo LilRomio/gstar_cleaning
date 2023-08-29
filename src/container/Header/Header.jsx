@@ -45,12 +45,12 @@ const Header = () => {
           <div className="tag-cmp app__flex">
             <div>
               <p className="p-text">
-                Firma de curatenie Gstar inseamnă servicii profesionale de
-                calitate. Ne preocupam permanent de imbunatatirea performantelor
-                si le oferim clientilor servicii peste nivelul asteptarilor.
-                Firma noastra de curatenie dispune de echipamente profesionale
-                si suntem reprezentati pe teren de o echipa cu experienta,
-                atenta la detalii si la necesitatilor clientilor.
+                Firma de curatenie Gstar cleaning inseamna servicii profesionale
+                de calitate. Ne preocupam permanent de imbunatatirea
+                performantelor si le oferim clientilor servicii peste nivelul
+                asteptarilor. Firma noastra de curatenie dispune de echipamente
+                profesionale si suntem reprezentati pe teren de o echipa cu
+                experienta, atenta la detalii si la necesitatile clientilor.
               </p>
             </div>
           </div>

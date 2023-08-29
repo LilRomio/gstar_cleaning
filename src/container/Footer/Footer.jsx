@@ -3,7 +3,7 @@ import './Footer.scss';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { FaFacebookF, FaWhatsappSquare } from 'react-icons/fa';
-import { BiLogoGmail, BiMobileVibration } from 'react-icons/bi';
+
 import { motion } from 'framer-motion';
 
 const Footer = () => {

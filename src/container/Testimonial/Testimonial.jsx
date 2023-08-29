@@ -1,27 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 import './Testimonial.scss';
-
-const test = [
-  {
-    imgUrl: images.about12,
-    description: 'Servicii excelente',
-    name: 'Romeo',
-    title: 'Web Dev',
-  },
-  {
-    imgUrl: images.about1,
-    description: 'Servicii bune',
-    name: 'Elena',
-    title: 'Propietar',
-  },
-];
 
 const Testimonial = () => {
   return (

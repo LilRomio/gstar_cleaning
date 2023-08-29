@@ -97,6 +97,26 @@ const Prices = () => {
             </div>
           </div>
         </div>
+        <div className="app__header-badge app__flex">
+          <div className="tag-cmp ">
+            <div className="app__flex" style={{ flexDirection: 'column' }}>
+              <h2 className="head-text">
+                <span> Promotii </span>
+              </h2>
+              <br />
+              <h2 className="bold-text">
+                Abonamentele la curatenie au reducere de minimum 10%
+              </h2>
+              <br />
+              <h2 className="bold-text">
+                In perioada 15 Noiembrie - 20 Decembrie pentru serviciul de
+                curatenie <br />
+                generala beneficiaza de curatarea cu injectie -
+                extractie a saltelelor.
+              </h2>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

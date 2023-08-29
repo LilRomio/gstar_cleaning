@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import './Navbar.scss';
 import { images } from '../../constants';
 import { BiLogoGmail, BiMobileVibration } from 'react-icons/bi';
-import { FaFacebookF, FaWhatsappSquare } from 'react-icons/fa';
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 

@@ -97,6 +97,21 @@
     }
   }
 
+  .app__accept {
+    background: var(--white-color);
+    padding: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+
+    input {
+      height: 12px;
+      width: 12px;
+      margin-right: 5px;
+
+      accent-color: var(--secondary-color);
+    }
+  }
+
   button {
     padding: 1rem 2rem;
     border-radius: 10px;
@@ -164,6 +179,28 @@
         width: 30px;
         height: 30px;
       }
+    }
+  }
+}
+
+.app__footer-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+
+  img {
+    width: 140px;
+    height: 50px;
+    padding-bottom: 5px;
+    @media screen and (max-width: 768px) {
+      width: 110px;
+    }
+
+    @media screen and (min-width: 2000px) {
+      width: 180px;
+      height: 65px;
     }
   }
 }

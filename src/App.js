@@ -1,18 +1,28 @@
 import React from 'react';
 import { About, Footer, Header, Prices, Testimonial } from './container';
-import { Navbar } from './components';
+import { Navbar, PoliticaInterna } from './components';
+
+import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 
 const App = () => {
   return (
-    <div className="app">
-      <Navbar />
-      <Header />
-      <About />
-      <Prices />
-      <Testimonial />
-      <Footer />
-    </div>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <div className="app">
+            <Navbar />
+            <Header />
+            <About />
+            <Prices />
+            <Testimonial />
+            <Footer />
+          </div>
+        }
+      ></Route>
+      <Route patch="politica_interna" element={<PoliticaInterna />}></Route>
+    </Routes>
   );
 };
 

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import './Footer.scss';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -28,14 +30,6 @@ const Footer = () => {
 
   const handleSubmit = () => {
     setLoading(true);
-
-    const contact = {
-      _type: 'contact',
-      name: name,
-      email: email,
-      mobile: mobile,
-      message: message,
-    };
   };
 
   return (
@@ -100,7 +94,12 @@ const Footer = () => {
       </div>
 
       {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
+        <form
+          className="app__footer-form app__flex"
+          target="_blank"
+          action="https://formsubmit.co/f66114f12d8183e13a4e61bb9c64e0aa "
+          method="POST"
+        >
           <div className="app__flex">
             <input
               className="p-text"
@@ -109,6 +108,7 @@ const Footer = () => {
               name="name"
               value={name}
               onChange={handleChangeInput}
+              required
             />
           </div>
           <div className="app__flex">
@@ -119,6 +119,7 @@ const Footer = () => {
               name="email"
               value={email}
               onChange={handleChangeInput}
+              required
             />
           </div>
           <div className="app__flex">
@@ -129,6 +130,7 @@ const Footer = () => {
               name="mobile"
               value={mobile}
               onChange={handleChangeInput}
+              required
             />
           </div>
           <div>
@@ -138,17 +140,43 @@ const Footer = () => {
               value={message}
               name="message"
               onChange={handleChangeInput}
+              required
             />
           </div>
-          <button type="button" className="p-text" onClick={handleSubmit}>
-            {loading ? 'Se trimite' : 'Trimite Mesaj'}
-          </button>
-        </div>
+
+          <div className="app__accept p-text ">
+            <label>
+              <input className="p-text" type="checkbox" required />
+              Da sunt de acord cu Politica de confidentialitate generala,&nbsp;
+              <Link to="/politica_interna" target="_blank">
+                Citeste Politica de confidentialitate
+              </Link>
+            </label>
+          </div>
+          {true ? (
+            <button className="p-text">{'Trimite Mesaj'}</button>
+          ) : (
+            <button type="submit" className="p-text" onClick={handleSubmit}>
+              {loading ? 'Se trimite' : 'Trimite Mesaj'}
+            </button>
+          )}
+        </form>
       ) : (
         <div>
           <h3 className="head-text">Multumim pentru mesaj!</h3>
         </div>
       )}
+      <div className="app__footer-logo ">
+        <a
+          className="head-text"
+          style={{ textDecoration: 'none', color: 'var(--blue-color)' }}
+          target="_blank"
+          rel="noreferrer"
+          href="https://anpc.ro/"
+        >
+          A.N.P.C.
+        </a>
+      </div>
     </>
   );
 };

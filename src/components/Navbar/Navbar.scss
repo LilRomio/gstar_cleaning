@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 1rem 2rem;
+  padding: 1rem 4rem;
   background: rgba(255, 255, 255, 0.25);
   // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur(4px);
@@ -14,7 +14,7 @@
   position: fixed;
   z-index: 2;
   @media screen and (max-width: 768px) {
-    padding: 1rem 1.6rem;
+    padding: 1rem 1.9rem;
   }
 }
 
@@ -49,16 +49,16 @@
   flex-direction: column;
 
   img {
-    width: 140px;
-    height: 50px;
+    width: 100px;
+    height: 55px;
     padding-bottom: 5px;
     @media screen and (max-width: 768px) {
       width: 110px;
     }
 
     @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 65px;
+      width: 160px;
+      height: 80px;
     }
   }
 }

@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png';
+import logo3 from '../assets/logo3.png';
 import logo2 from '../assets/logo2.jpg';
 import about1 from '../assets/about1.jpg';
 import about2 from '../assets/about2.jpg';
@@ -44,7 +44,7 @@ export default {
   about18,
   about19,
 
-  logo,
+  logo3,
   logo2,
   circle,
   email,

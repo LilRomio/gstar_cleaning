@@ -97,7 +97,7 @@ const Footer = () => {
         <form
           className="app__footer-form app__flex"
           target="_blank"
-          action="https://formsubmit.co/f66114f12d8183e13a4e61bb9c64e0aa "
+          action="https://formsubmit.co/5b4a0c357c58de8307d92906dcce9e9f "
           method="POST"
         >
           <div className="app__flex">
@@ -148,7 +148,7 @@ const Footer = () => {
             <label>
               <input className="p-text" type="checkbox" required />
               Da sunt de acord cu Politica de confidentialitate generala,&nbsp;
-              <Link to="/politica_interna" target="_blank">
+              <Link to="/politica-interna" target="_blank">
                 Citeste Politica de confidentialitate
               </Link>
             </label>
@@ -166,9 +166,10 @@ const Footer = () => {
           <h3 className="head-text">Multumim pentru mesaj!</h3>
         </div>
       )}
+
       <div className="app__footer-logo ">
         <a
-          className="head-text"
+          className="p-text"
           style={{ textDecoration: 'none', color: 'var(--blue-color)' }}
           target="_blank"
           rel="noreferrer"

@@ -19,6 +19,10 @@ import about16 from '../assets/about16.jpg';
 import about17 from '../assets/about17.jpg';
 import about18 from '../assets/about18.jpg';
 import about19 from '../assets/about19.jpg';
+import testimonial1 from '../assets/testimonial1.jpg';
+import testimonial2 from '../assets/testimonial2.jpg';
+import testimonial3 from '../assets/testimonial3.jpg';
+import testimonial4 from '../assets/testimonial4.jpg';
 import circle from '../assets/circle.svg';
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
@@ -43,7 +47,10 @@ export default {
   about17,
   about18,
   about19,
-
+  testimonial1,
+  testimonial2,
+  testimonial3,
+  testimonial4,
   logo3,
   logo2,
   circle,

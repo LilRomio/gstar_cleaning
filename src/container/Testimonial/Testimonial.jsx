@@ -21,34 +21,31 @@ const Testimonial = () => {
       <div className="app__testimonial-item app__flex">
         <div className="app__testimonial-content">
           <div>
-            <img src={images.about1} alt="testimonial" />
+            <img src={images.testimonial1} alt="testimonial" />
             <p className="p-text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
-              officiis quam tempora, incidunt repellat assumenda atque alias,
-              corporis veniam culpa maxime corrupti nostrum modi quae aspernatur
-              rerum odio placeat? Architecto.
+              Recomand cu caldura GStar Cleaning pentru serviciile lor excelente
+              de curatenie. Am apelat la ei recent pentru o curatenie generala a
+              casei mele si am fost impresionat de calitatea serviciilor lor.
+              Echipa lor de curatenie a fost extrem de profesionista si a facut
+              o treabă minunata in a curata fiecare colt al casei mele.
             </p>
             <div>
-              <h4 className="bold-text">Elena</h4>
-              <h5 className="p-text">Propietar</h5>
+              <h4 className="bold-text">Madalin</h4>
+              <h5 className="p-text">Proprietar Apartament</h5>
             </div>
           </div>
         </div>
       </div>
       <div className="app__testimonial-item app__flex">
-        <div className="app__testimonial-content">
+        <div className="app__testimonial-content ">
+          <img src={images.testimonial4} alt="testimonial" />
+
+          <p className="p-text">
+            Recomand cu încredere! Profesionalism și seriozitate
+          </p>
           <div>
-            <img src={images.about1} alt="testimonial" />
-            <p className="p-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quis quibusdam fugit adipisci tempora facilis molestias
-              laudantium natus amet deserunt sed, sequi libero optio error
-              voluptate? Dolorum voluptatem tempore aliquid?
-            </p>
-            <div>
-              <h4 className="bold-text">Romeo</h4>
-              <h5 className="p-text">Web Dev</h5>
-            </div>
+            <h4 className="bold-text">Manolache Lorenzini Alina</h4>
+            <h5 className="p-text">Proprietar Apartament</h5>
           </div>
         </div>
       </div>

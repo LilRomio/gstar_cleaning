@@ -5,31 +5,31 @@ const PoliticaInterna = () => {
     <div className="app__flex">
       <div
         className="app__header-info"
-        style={{ fontSize: '35px', fontWeight: '600' }}
+        style={{ fontSize: '32px', fontWeight: '600' }}
       >
         <h2 className="head-text">Politica de confidentialitate </h2>
         <h2
           className="bold-text"
-          style={{ fontSize: '28px', fontWeight: '600' }}
+          style={{ fontSize: '22px', fontWeight: '600' }}
         >
           I. Informații generale
         </h2>
-        <p className="p-text" style={{ fontSize: '20px' }}>
+        <p className="p-text" style={{ fontSize: '16px' }}>
           Confidențialitatea datelor dumneavoastră cu caracter personal
           reprezintă una dintre preocupările principale ale SC Giurgea Star
           Company Srl CUI 47151280 J13/4037/09.11.2022 Str. George Toparceanu –
           Corbu, Constanta în calitate de operator de date. <br /> Acest
           document are rolul de a vă informa cu privire la prelucrarea datelor
           dumneavoastră cu caracter personal, în contextul utilizării paginii de
-          internet www.gstarcleaning.com. („Site-ul”)
+          internet www.gstarcleaning.ro
         </p>
         <h2
           className="bold-text"
-          style={{ fontSize: '28px', fontWeight: '600' }}
+          style={{ fontSize: '22px', fontWeight: '600' }}
         >
           II. Categoriile de date cu caracter personal prelucrate
         </h2>
-        <p className="p-text" style={{ fontSize: '20px' }}>
+        <p className="p-text" style={{ fontSize: '16px' }}>
           II.1. Dacă sunteți client al Site-ului, SC Giurgea Star Company SRL.
           va prelucra datele dumneavoastră cu caracter personal, cum ar fi nume
           şi prenume, adresa de e-mail, date referitoare la modul în care
@@ -43,11 +43,11 @@ const PoliticaInterna = () => {
         </p>
         <h2
           className="bold-text"
-          style={{ fontSize: '28px', fontWeight: '600' }}
+          style={{ fontSize: '22px', fontWeight: '600' }}
         >
           III. Scopurile și temeiurile de prelucrării
         </h2>
-        <p className="p-text" style={{ fontSize: '20px' }}>
+        <p className="p-text" style={{ fontSize: '16px' }}>
           III.1. Ce date personale colectăm despre dumneavoastră?- dreptul la
           informare Cu ajutorul site-ului SC Giurgea Star Company SRL prelucrăm
           strict acele date care sunt necesare răspunsului de cerere oferta
@@ -107,11 +107,11 @@ const PoliticaInterna = () => {
         </p>
         <h2
           className="bold-text"
-          style={{ fontSize: '28px', fontWeight: '600' }}
+          style={{ fontSize: '22px', fontWeight: '600' }}
         >
           IV. Durata pentru care vă prelucrăm datele
         </h2>
-        <p className="p-text" style={{ fontSize: '20px' }}>
+        <p className="p-text" style={{ fontSize: '16px' }}>
           Ca principiu, SC Giurgea Star Company SRL va prelucra datele
           dumneavoastră cu caracter personal atât cât este necesar pentru
           realizarea scopurilor de prelucrare menționate mai sus.
@@ -128,11 +128,11 @@ const PoliticaInterna = () => {
         </p>
         <h2
           className="bold-text"
-          style={{ fontSize: '28px', fontWeight: '600' }}
+          style={{ fontSize: '22px', fontWeight: '600' }}
         >
           V. Dezvăluirea datelor cu caracter personal
         </h2>
-        <p className="p-text" style={{ fontSize: '20px' }}>
+        <p className="p-text" style={{ fontSize: '16px' }}>
           Putem divulga informațiile dvs. personale:
           <br /> 1. în măsura în care ni se solicită acest lucru prin lege;
           <br /> 2. în legătură cu orice procedură legală potențială sau în
@@ -143,22 +143,22 @@ const PoliticaInterna = () => {
         </p>
         <h2
           className="bold-text"
-          style={{ fontSize: '28px', fontWeight: '600' }}
+          style={{ fontSize: '22px', fontWeight: '600' }}
         >
           VI. Transferul datelor cu caracter personal
         </h2>
-        <p className="p-text" style={{ fontSize: '20px' }}>
-          Datele cu caracter personal furnizate către SC Giurgea Star Company
+        <p className="p-text" style={{ fontSize: '16px' }}>
+          Datele cu caracter personal furnizate către SC Giurgea Starrel Company
           SRL fi transferate în afara României, dar doar către state din Uniunea
           Europeană.
         </p>
         <h2
           className="bold-text"
-          style={{ fontSize: '28px', fontWeight: '600' }}
+          style={{ fontSize: '22px', fontWeight: '600' }}
         >
           VII. Drepturile de care beneficiați
         </h2>
-        <p className="p-text" style={{ fontSize: '20px' }}>
+        <p className="p-text" style={{ fontSize: '16px' }}>
           În condițiile prevăzute de legislația în materia prelucrării datelor
           cu caracter personal, în calitate de persoane vizate, beneficiați de
           următoarele drepturi:

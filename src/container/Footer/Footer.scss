@@ -109,6 +109,11 @@
       margin-right: 5px;
 
       accent-color: var(--secondary-color);
+
+      @media screen and (max-width: 450px) {
+        height: 10px;
+        width: 10px;
+      }
     }
   }
 

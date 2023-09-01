@@ -3,7 +3,7 @@ import React from 'react';
 const PoliticaInterna = () => {
   return (
     <div className="app__container">
-      <div className="app__flex">
+      <div className="app__flex" style={{ padding: '2rem 0 ' }}>
         <div
           className="app__header-info"
           style={{ fontSize: '32px', fontWeight: '600' }}
@@ -11,7 +11,7 @@ const PoliticaInterna = () => {
           <h2 className="head-text">Politica de confidentialitate </h2>
           <h2
             className="bold-text"
-            style={{ fontSize: '22px', fontWeight: '600' }}
+            style={{ fontSize: '22px', fontWeight: '600', padding: '2rem 0 ' }}
           >
             I. Informații generale
           </h2>
@@ -26,7 +26,7 @@ const PoliticaInterna = () => {
           </p>
           <h2
             className="bold-text"
-            style={{ fontSize: '22px', fontWeight: '600' }}
+            style={{ fontSize: '22px', fontWeight: '600', padding: '2rem 0 ' }}
           >
             II. Categoriile de date cu caracter personal prelucrate
           </h2>
@@ -46,7 +46,7 @@ const PoliticaInterna = () => {
           </p>
           <h2
             className="bold-text"
-            style={{ fontSize: '22px', fontWeight: '600' }}
+            style={{ fontSize: '22px', fontWeight: '600', padding: '2rem 0 ' }}
           >
             III. Scopurile și temeiurile de prelucrării
           </h2>
@@ -112,7 +112,7 @@ const PoliticaInterna = () => {
           </p>
           <h2
             className="bold-text"
-            style={{ fontSize: '22px', fontWeight: '600' }}
+            style={{ fontSize: '22px', fontWeight: '600', padding: '2rem 0 ' }}
           >
             IV. Durata pentru care vă prelucrăm datele
           </h2>
@@ -134,7 +134,7 @@ const PoliticaInterna = () => {
           </p>
           <h2
             className="bold-text"
-            style={{ fontSize: '22px', fontWeight: '600' }}
+            style={{ fontSize: '22px', fontWeight: '600', padding: '2rem 0 ' }}
           >
             V. Dezvăluirea datelor cu caracter personal
           </h2>
@@ -149,7 +149,7 @@ const PoliticaInterna = () => {
           </p>
           <h2
             className="bold-text"
-            style={{ fontSize: '22px', fontWeight: '600' }}
+            style={{ fontSize: '22px', fontWeight: '600', padding: '2rem 0 ' }}
           >
             VI. Transferul datelor cu caracter personal
           </h2>
@@ -160,7 +160,7 @@ const PoliticaInterna = () => {
           </p>
           <h2
             className="bold-text"
-            style={{ fontSize: '22px', fontWeight: '600' }}
+            style={{ fontSize: '22px', fontWeight: '600', padding: '2rem 0 ' }}
           >
             VII. Drepturile de care beneficiați
           </h2>

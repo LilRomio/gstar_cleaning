@@ -49,6 +49,22 @@ const Testimonial = () => {
           </div>
         </div>
       </div>
+      <div className="app__testimonial-item app__flex">
+        <div className="app__testimonial-content ">
+          <img src={images.testimonial2} alt="testimonial" />
+
+          <p className="p-text">
+            Apreciez promptitudinea, discretia si atentia la detalii a echipei
+            care realizeaza curatenia in apartamentul noastru. Sunt multumita de
+            serviciile de curatenie oferite de firma GStar Cleaning, motiv
+            pentru care o recomand cu incredere.
+          </p>
+          <div>
+            <h4 className="bold-text">Rodica Vizireanu</h4>
+            <h5 className="p-text">Proprietar Apartament</h5>
+          </div>
+        </div>
+      </div>
     </Carousel>
   );
 };

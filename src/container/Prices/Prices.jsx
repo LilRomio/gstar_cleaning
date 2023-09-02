@@ -111,7 +111,7 @@ const Prices = () => {
               <h2 className="bold-text">
                 In perioada 15 Noiembrie - 20 Decembrie pentru serviciul de
                 curatenie <br />
-                generala beneficiaza de curatarea cu injectie -
+                generala clientii beneficiaza de curatarea cu injectie -
                 extractie a saltelelor.
               </h2>
             </div>

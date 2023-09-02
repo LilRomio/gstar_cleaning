@@ -97,7 +97,7 @@ const Footer = () => {
         <form
           className="app__footer-form app__flex"
           target="_blank"
-          action="https://formsubmit.co/5b4a0c357c58de8307d92906dcce9e9f "
+          action="https://formsubmit.co/5b4a0c357c58de8307d92906dcce9e9f"
           method="POST"
         >
           <div className="app__flex">
